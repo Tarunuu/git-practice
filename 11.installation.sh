@@ -18,7 +18,7 @@ then
     if [ $? -ne 0 ]
 then 
     echo "Git installation is not success... check it"
-    exit1
+    exit 1
 else
     echo "Git is already installed, nothing to do.."
 fi
