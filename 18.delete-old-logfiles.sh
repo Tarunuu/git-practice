@@ -14,7 +14,7 @@ else
     exit 1
 fi
 
-FILES=$(find $SOURCE_DIR -name "*log" -mtime 
+FILES=$(find $SOURCE_DIR -name "*log" -mtime ) 
 echo "Files: $FILES"
 
 while IFS= read line #IFS,internal field seperator, empty it will ignore while space -r is for not to ignore special characters like /
