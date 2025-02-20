@@ -9,11 +9,11 @@ G="\e[32m"
 N="\e[0m"
 Y="\e[33m"
 USAGE(){
-    echo -e "USAGE:: sh 19-backup.sh <source> <destination> <days(optional)>"
+    echo -e "$R USAGE:: $N sh 19-backup.sh <source> <destination> <days(optional)>"
 }
 #check the source and destinantion are provided
 
-if[ $# -lt 2 ]
+if [ $# -lt 2 ]
 then
     USAGE
 fi
