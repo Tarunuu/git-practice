@@ -30,7 +30,7 @@ then
     echo "$DEST_DIR does not exit... Please check"
 fi
 
-FILES=$(find ${SOURCE_DIR} -name "*.log" -mtime +14)
+FILES=$(find ${SOURCE_DIR} -name "*.log" -mtime +$DAYS)
 
 echo "Files: $FILES"
 
